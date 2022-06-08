@@ -1,21 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+#section-1 {
+    height: 100vh;
     background: url("../svg/bg.svg") no-repeat;
     background-size: cover;
 }
 
-h1{
+h1 {
     font-family: 'Lobster', sans-serif;
 }
 
-h2{
+h2 {
     font-family: 'Kanit', sans-serif;
+}
+
+.logo {
+    width: 2.2em;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer {
+    background: linear-gradient(#ffff, #8F8F8F);
 }
